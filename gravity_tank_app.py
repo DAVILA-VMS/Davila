@@ -3,7 +3,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 # Configuración de la página
-st.set_page_config(page_title="Calculadora Gravity Tank", layout="centered")
+st.set_page_config(page_title="Calculadora Gravity Tank Cedervall", layout="centered")
 
 # Mostrar los logos
 col1, col2 = st.columns([1, 1])
@@ -12,7 +12,7 @@ with col1:
 with col2:
     st.image("logo_cedervall.png", width=150)
 
-st.title("🛠️ Calculadora de Altura del Gravity Tank")
+st.title("🛠️ Calculadora de Altura del Gravity Tank Cedervall")
 st.markdown("Modelo: Cedervall Sterntube Seals")
 
 # Mostrar plano técnico
@@ -50,3 +50,4 @@ if Dmax> 0 and x>= 0:
 else:
 
     st.warning("Por favor ingresa valores válidos para Dmax y x.")
+
