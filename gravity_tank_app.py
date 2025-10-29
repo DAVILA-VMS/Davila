@@ -1,4 +1,3 @@
-python
 import streamlit as st
 from PIL import Image
 import matplotlib.pyplot as plt
@@ -49,4 +48,5 @@ if Dmax> 0 and x>= 0:
     ax.set_title("Relación entre Ho y Hw")
     st.pyplot(fig)
 else:
+
     st.warning("Por favor ingresa valores válidos para Dmax y x.")
