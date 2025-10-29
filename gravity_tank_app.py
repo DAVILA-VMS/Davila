@@ -17,7 +17,7 @@ st.markdown("Modelo: Cedervall Sterntube Seals")
 
 # Mostrar plano técnico
 st.subheader("📐 Plano técnico de referencia")
-st.image("plano_gravity_tank.png", caption="Plano del sistema de tanque de gravedad", use_column_width=True)
+st.image("plano_gravity_tank.png", caption="Plano del sistema de tanque de gravedad", use_container_width=True)
 
 # Entrada de datos
 st.subheader("🔢 Datos de entrada")
@@ -50,4 +50,5 @@ if Dmax> 0 and x>= 0:
 else:
 
     st.warning("Por favor ingresa valores válidos para Dmax y x.")
+
 
